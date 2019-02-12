@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia;
+package Animal;
 
 /**
  *
  * @author T-101
  */
-public class TarjetaCredito extends Tarjeta{
+public class Reptil extends Animal{
     
 }

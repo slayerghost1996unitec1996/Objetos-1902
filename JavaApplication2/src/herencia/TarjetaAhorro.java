@@ -9,34 +9,6 @@ package herencia;
  *
  * @author T-101
  */
-public class TarjetaAhorro {
-
-    private String nombre;
-    private int nip;
-    private long numero;
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getNip() {
-        return nip;
-    }
-
-    public void setNip(int nip) {
-        this.nip = nip;
-    }
-
-    public long getNumero() {
-        return numero;
-    }
-
-    public void setNumero(long numero) {
-        this.numero = numero;
-    }
-
+public class TarjetaAhorro extends Tarjeta{
+    
 }

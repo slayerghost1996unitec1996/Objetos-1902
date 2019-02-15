@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia;
+package Areas;
 
 /**
  *
  * @author T-101
  */
-    public class TarjetaNomina extends Tarjeta{
+public class Triangulo extends Areas{
+     private float base;
+    private float altura;
     
-    public TarjetaNomina(String nombre) {
-        super(nombre);
-    }
+    
+
     
 }

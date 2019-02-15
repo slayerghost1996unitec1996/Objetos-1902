@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia;
+package Polimorfismo;
 
 /**
  *
  * @author T-101
  */
-    public class TarjetaNomina extends Tarjeta{
-    
-    public TarjetaNomina(String nombre) {
-        super(nombre);
-    }
-    
+public class Figura {
+  float area;
+  float perimetro;
+  
+  
+          
 }

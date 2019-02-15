@@ -10,5 +10,12 @@ package herencia;
  * @author T-101
  */
 public class TarjetaAhorro extends Tarjeta{
-    
+    /*
+    public TarjetaAhorro(){
+        super("banamex");
+    }
+*/
+    public TarjetaAhorro(String nombre){
+        super(nombre);
+    }
 }

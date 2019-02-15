@@ -9,10 +9,11 @@ package herencia;
  *
  * @author T-101
  */
-    public class TarjetaNomina extends Tarjeta{
-    
-    public TarjetaNomina(String nombre) {
-        super(nombre);
+public class Banco {
+    public static void main(String[] args) {
+        //generamos un objeto  de tipo TarjetaAHORRO
+        TarjetaAhorro t1=new TarjetaAhorro("RATAMEX");
+        t1.setNombre("banamex");
+        
     }
-    
 }

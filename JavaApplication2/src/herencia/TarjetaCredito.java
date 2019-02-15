@@ -11,4 +11,11 @@ package herencia;
  */
 public class TarjetaCredito extends Tarjeta{
     
+    public TarjetaCredito(String nombre) {
+        super(nombre);
+    }
+    
+    
+    
+      
 }

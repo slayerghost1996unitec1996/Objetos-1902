@@ -15,9 +15,28 @@ public abstract class Tarjeta {
     private String nombre;
     private int nip;
 
+    public Tarjeta(int nip) {
+        this.nip = nip;
+    }
+
+    public Tarjeta(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Tarjeta(long numero) {
+        this.numero = numero;
+    }
+
+    
+
+    
+
+    
+    
     public long getNumero() {
         return numero;
     }
+    
 
     public void setNumero(long numero) {
         this.numero = numero;

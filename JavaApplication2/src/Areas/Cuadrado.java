@@ -20,6 +20,14 @@ public class Cuadrado extends Areas {
         setArea(area);
 
     }
+    
+    
+
+    @Override
+    public void calcularPermietro() {
+        float perimetro=
+                set.perimetro(perimetro);
+    }
 
     public float getLado() {
         return lado;

@@ -16,5 +16,7 @@ public class Geometria {
        c.calcularArea();
         System.out.println("el area es   "+c.getArea());
     }
+    
+    
         
 }

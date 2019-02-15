@@ -12,6 +12,7 @@ package Areas;
 public class Triangulo extends Areas{
      private float base;
     private float altura;
+     
     
     
 

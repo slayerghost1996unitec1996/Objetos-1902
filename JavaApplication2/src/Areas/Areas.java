@@ -18,11 +18,12 @@ public abstract class Areas {
     
     public void calcularArea(){
         
-        
-        
     } 
     
-    
+    public void calcularPermietro(){
+        
+        
+    }
     
     
     public float getArea() {

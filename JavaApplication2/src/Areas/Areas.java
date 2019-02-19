@@ -10,22 +10,19 @@ package Areas;
  * @author T-101
  */
 public abstract class Areas {
-    
+
     private float area;
     private float perimetro;
 
     //calcular area
-    
-    public void calcularArea(){
-        
-    } 
-    
-    public void calcularPermietro(){
-        
-        
+    public void calcularArea() {
+
     }
-    
-    
+
+    public void calcularPermietro() {
+
+    }
+
     public float getArea() {
         return area;
     }

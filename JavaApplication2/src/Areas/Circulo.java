@@ -10,5 +10,21 @@ package Areas;
  * @author T-101
  */
 public class  Circulo extends Areas {
+    private float radio;
+    
+     @Override
+    public void calcularArea() {
+
+        float area = 3.1416f*radio*radio;
+        setArea(area);
+        
+      
+    }
+    
+    @Override
+    public void calcularPermietro() {
+        float perimetro=2f*radio;
+        setPerimetro(perimetro);
+    }
     
 }

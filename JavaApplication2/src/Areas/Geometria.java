@@ -15,8 +15,10 @@ public class Geometria {
        c.setLado(5);
        c.calcularArea();
         System.out.println("el area es   "+c.getArea());
-    }
+        System.out.println("el perimetro es  "+c.getPerimetro());
+        
     
+    }
     
         
 }

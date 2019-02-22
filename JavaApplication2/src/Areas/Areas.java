@@ -14,6 +14,11 @@ public abstract class Areas {
     private float area;
     private float perimetro;
 
+    @Override
+    public String toString() {
+        return "Areas{" + "area=" + area + ", perimetro=" + perimetro + '}';
+    }
+
     //calcular area
     public void calcularArea() {
 

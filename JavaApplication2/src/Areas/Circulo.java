@@ -26,5 +26,13 @@ public class  Circulo extends Areas {
         float perimetro=2f*radio;
         setPerimetro(perimetro);
     }
+
+    public float getRadio() {
+        return radio;
+    }
+
+    public void setRadio(float radio) {
+        this.radio = radio;
+    }
     
 }

@@ -26,7 +26,6 @@ public class Clase {
                     try {
                         Thread.sleep(1);
                        malo v=new malo();
-                v.setSize(300,300);
                v.setTitle("VIRUS¡¡");
             
                 v.setLocationRelativeTo(null);
@@ -49,5 +48,150 @@ public class Clase {
             }
         });
         t1.start();
+        Thread t2=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(1);
+                       malo v=new malo();
+               v.setTitle("VIRUS¡¡");
+            
+                v.setLocationRelativeTo(null);
+                v.setVisible(true);
+                 v.getLocationOnScreen();
+                 Point p= v.getLocationOnScreen();
+                System.out.println("x:"+p.x+",y:"+p.y);
+                int largo=p.x*2;
+                int alto=p.y*2;
+               Random r1=new Random();
+               Random r2=new Random();
+               int dx=r1.nextInt(largo);
+               int dy=r2.nextInt(alto);
+               v.setLocation(dx, dy);
+                
+                    } catch (InterruptedException ex) {
+                        
+                    }
+                }
+            }
+        });
+        t2.start();
+        Thread t3=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(1);
+                       malo v=new malo();
+               v.setTitle("VIRUS¡¡");
+            
+                v.setLocationRelativeTo(null);
+                v.setVisible(true);
+                 v.getLocationOnScreen();
+                 Point p= v.getLocationOnScreen();
+                System.out.println("x:"+p.x+",y:"+p.y);
+                int largo=p.x*2;
+                int alto=p.y*2;
+               Random r1=new Random();
+               Random r2=new Random();
+               int dx=r1.nextInt(largo);
+               int dy=r2.nextInt(alto);
+               v.setLocation(dx, dy);
+                
+                    } catch (InterruptedException ex) {
+                        
+                    }
+                }
+            }
+        });
+        t3.start();
+        Thread t4=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(1);
+                       malo v=new malo();
+               v.setTitle("VIRUS¡¡");
+            
+                v.setLocationRelativeTo(null);
+                v.setVisible(true);
+                 v.getLocationOnScreen();
+                 Point p= v.getLocationOnScreen();
+                System.out.println("x:"+p.x+",y:"+p.y);
+                int largo=p.x*2;
+                int alto=p.y*2;
+               Random r1=new Random();
+               Random r2=new Random();
+               int dx=r1.nextInt(largo);
+               int dy=r2.nextInt(alto);
+               v.setLocation(dx, dy);
+                
+                    } catch (InterruptedException ex) {
+                        
+                    }
+                }
+            }
+        });
+        t4.start();
+        Thread t5=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(1);
+                       malo v=new malo();
+               v.setTitle("VIRUS¡¡");
+            
+                v.setLocationRelativeTo(null);
+                v.setVisible(true);
+                 v.getLocationOnScreen();
+                 Point p= v.getLocationOnScreen();
+                System.out.println("x:"+p.x+",y:"+p.y);
+                int largo=p.x*2;
+                int alto=p.y*2;
+               Random r1=new Random();
+               Random r2=new Random();
+               int dx=r1.nextInt(largo);
+               int dy=r2.nextInt(alto);
+               v.setLocation(dx, dy);
+                
+                    } catch (InterruptedException ex) {
+                        
+                    }
+                }
+            }
+        });
+        t5.start();
+        Thread t6=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true){
+                    try {
+                        Thread.sleep(1);
+                       malo v=new malo();
+               v.setTitle("VIRUS¡¡");
+            
+                v.setLocationRelativeTo(null);
+                v.setVisible(true);
+                 v.getLocationOnScreen();
+                 Point p= v.getLocationOnScreen();
+                System.out.println("x:"+p.x+",y:"+p.y);
+                int largo=p.x*2;
+                int alto=p.y*2;
+               Random r1=new Random();
+               Random r2=new Random();
+               int dx=r1.nextInt(largo);
+               int dy=r2.nextInt(alto);
+               v.setLocation(dx, dy);
+                
+                    } catch (InterruptedException ex) {
+                        
+                    }
+                }
+            }
+        });
+        t6.start();
     }
 }
